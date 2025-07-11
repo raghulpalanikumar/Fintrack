@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 // You need to get a free API key from https://openrouter.ai/
 
 const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-const API_KEY = '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'; // Replace with your free key
+const API_KEY = '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'; // Replace with your free key
 
 const FinanceAssistant = ({ transactions }) => {
   const [messages, setMessages] = useState([
