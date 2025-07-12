@@ -3,12 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-  "dev": "npx vite",
-  "build": "npx vite build",
-  "lint": "eslint .",
-  "preview": "npx vite preview"
-  },
+ "scripts": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+ },
+
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
